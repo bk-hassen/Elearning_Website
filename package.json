@@ -6,7 +6,8 @@
   "scripts": {
     "back": "cd Backend && npm run backend",
     "front": "cd Frontend/elearning && npm start",
-    "dev": "concurrently \"npm run back\" \"npm run front\""
+    "dev": "concurrently \"npm run back\" \"npm run front\"",
+    "build": "cd Frontend/elearning && npm run build"
   },
   "author": "",
   "license": "ISC",
